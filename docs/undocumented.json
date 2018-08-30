@@ -1,0 +1,89 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKCoordinator/Sources/BaseCoordinators.swift",
+      "line": 1,
+      "symbol": "BaseCoordinator",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKCoordinator/Sources/BaseCoordinators.swift",
+      "line": 2,
+      "symbol": "BaseCoordinator.childCoordinators",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKCoordinator/Sources/BaseCoordinators.swift",
+      "line": 5,
+      "symbol": "BaseCoordinator.remove(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKCoordinator/Sources/BaseCoordinators.swift",
+      "line": 12,
+      "symbol": "BaseAppCoordinator",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKCoordinator/Sources/BaseCoordinators.swift",
+      "line": 13,
+      "symbol": "BaseAppCoordinator.window",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKCoordinator/Sources/BaseCoordinators.swift",
+      "line": 16,
+      "symbol": "BaseAppCoordinator.init(window:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKCoordinator/Sources/BaseCoordinators.swift",
+      "line": 22,
+      "symbol": "BaseFlow",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKCoordinator/Sources/BaseCoordinators.swift",
+      "line": 23,
+      "symbol": "BaseFlow.rootViewController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKCoordinator/Sources/BaseCoordinators.swift",
+      "line": 26,
+      "symbol": "BaseFlow.init(rootViewController:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKCoordinator/Sources/BaseCoordinators.swift",
+      "line": 30,
+      "symbol": "BaseNavigationFlow",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKCoordinator/Sources/Coordinator.swift",
+      "line": 1,
+      "symbol": "Coordinator",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKCoordinator/Sources/Coordinator.swift",
+      "line": 2,
+      "symbol": "Coordinator.start()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/daskioff/Dropbox/work/MyProjects/iOS/_pods/RKCoordinator"
+}
