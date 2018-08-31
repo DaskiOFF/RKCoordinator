@@ -8,11 +8,14 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RKCoordinator'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Coordinators'
 
   s.description      = <<-DESC
   Coordinators
+
+  0.1.1
+    Add new manage method ("Add") to BaseCoordinator
 
   0.1.0
     Init

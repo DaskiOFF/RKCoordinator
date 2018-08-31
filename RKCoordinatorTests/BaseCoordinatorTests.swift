@@ -24,10 +24,12 @@ class BaseCoordinatorTests: XCTestCase {
         let coord2 = Coord()
         
         XCTAssert(coord1 !== coord2)
-        baseCoordinator.childCoordinators = [coord1, coord2]
+        
+        baseCoordinator.add(coord1)
+        baseCoordinator.add(coord2)
+        XCTAssert(baseCoordinator.childCoordinators.count == 2)
         
         baseCoordinator.remove(coord1)
-        
         XCTAssert(baseCoordinator.childCoordinators.count == 1)
         XCTAssert(baseCoordinator.childCoordinators[0] === coord2)
         XCTAssert(baseCoordinator.childCoordinators[0] !== coord1)

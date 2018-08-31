@@ -1,7 +1,19 @@
+import UIKit
+
 open class BaseCoordinator {
-    open var childCoordinators: [Coordinator] = []
+    public private(set) var childCoordinators: [Coordinator] = []
     
     // MARK: - Manage
+    /// Add new child coordinator
+    ///
+    /// - Parameter coordinator: Child coordinator
+    public func add(_ coordinator: Coordinator) {
+        childCoordinators.append(coordinator)
+    }
+    
+    /// Remove child coordinator from storage
+    ///
+    /// - Parameter coordinator: Deleted coordinator
     public func remove(_ coordinator: Coordinator) {
         guard let index = childCoordinators.index(where: { $0 === coordinator}) else { return }
         childCoordinators.remove(at: index)
